@@ -16,11 +16,19 @@ export default function Home() {
   const [selectedFunding, setSelectedFunding] = useState<string[]>([]);
 
   const filteredCompanies = companies.filter((company) => {
+
+    if (!searchQuery && selectedCategories.length === 0 && selectedFunding.length === 0) {
+      return true;
+    }
+
+    if (!company.name || !company.description || company.categories?.length === 0  || !company.fundingStage) {
+      return false;
+    }
     const matchesSearch = company.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       company.description.toLowerCase().includes(searchQuery.toLowerCase());
     
     const matchesCategories = selectedCategories.length === 0 || 
-      selectedCategories.some(cat => company.categories.includes(cat));
+      selectedCategories.some(cat => company.categories?.includes(cat));
     
     const matchesFunding = selectedFunding.length === 0 ||
       selectedFunding.includes(company.fundingStage);

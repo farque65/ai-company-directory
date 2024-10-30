@@ -14,12 +14,14 @@ export default function CompanyCard({ company }: CompanyCardProps) {
     <Card className="overflow-hidden hover:shadow-lg transition-shadow">
       <CardHeader className="p-0">
         <div className="relative h-48 w-full">
-          <Image
-            src={company.image}
-            alt={company.name}
-            fill
-            className="object-cover"
-          />
+          {company.image && (
+              <Image
+              src={company.image}
+              alt={company.name ? company.name:"Company image"}
+              fill
+              className="object-cover"
+            />
+          )}
         </div>
       </CardHeader>
       <CardContent className="p-6">
