@@ -13,7 +13,7 @@ return (
         <div className="block text-teal-600 lg:hidden">
             AI Companies Directory
         </div>
-
+        {/*}
         <div className="mt-8 space-y-4 lg:mt-0">
           <span className="hidden h-1 w-10 rounded bg-black lg:block"></span>
 
@@ -48,13 +48,14 @@ return (
             </div>
           </form>
         </div>
+        */}
       </div>
 
       <div className="py-8 lg:py-16 lg:pe-16">
         <div className="hidden text-black lg:block">
             AI Companies Directory
         </div>
-
+        {/*
         <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div>
             <p className="font-medium text-gray-900">Services</p>
@@ -118,7 +119,7 @@ return (
             </ul>
           </div>
         </div>
-
+        */}
         <div className="mt-8 border-t border-gray-100 pt-8">
           <ul className="flex flex-wrap gap-4 text-xs">
             <li>
