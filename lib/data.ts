@@ -1,12 +1,12 @@
 export interface Company {
-  id: string;
-  name: string;
-  description: string;
-  founded: number;
-  website: string;
-  image: string;
-  categories: string[];
-  fundingStage: string;
+  id?: string;
+  name?: string;
+  description?: string;
+  founded?: number;
+  website?: string;
+  image?: string;
+  categories?: string[];
+  fundingStage?: string;
   tagline?: string;
 }
 
