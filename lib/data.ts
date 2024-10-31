@@ -355,5 +355,13 @@ export const companies: Company[] = [
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
     tagline: "The most advanced fully automated café system",
     description: "Cafe X Technologies specializes in developing robotic coffee bars that offer fully autonomous, AI-powered coffee service, capable of serving over 100 drinks per hour with minimal daily labor."
+  },
+  {
+    name: "SwingVision",
+    categories: ["Sports", "Computer Vision"],
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+    tagline: "Elevate your game using just your iphone",
+    description: "SwingVision is an AI-powered tennis analysis app that provides real-time video analysis for players, tracking every shot and measuring ball velocity to generate professional-quality statistics and highlights.",
+    website: "https://swing.tennis/"
   }
 ];
