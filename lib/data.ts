@@ -405,5 +405,14 @@ export const companies: Company[] = [
     description: "SwingVision is an AI-powered tennis analysis app that provides real-time video analysis for players, tracking every shot and measuring ball velocity to generate professional-quality statistics and highlights.",
     website: "https://swing.tennis/",
     fundingStage: "unknown"
+  },
+  {
+    name: "Granola",
+    categories: ["Saaas"],
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+    tagline: "The AI notepad for people in back-to-back meetings",
+    description: "Granola is an AI-powered notepad designed to enhance meeting note-taking by combining user input with AI assistance. It transcribes meetings in the background while users type their own notes, which are organized and enhanced by AI afterward.",
+    website: "https://www.granola.ai/",
+    fundingStage: "Series A"
   }
 ];
