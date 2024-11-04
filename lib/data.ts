@@ -414,5 +414,14 @@ export const companies: Company[] = [
     description: "Granola is an AI-powered notepad designed to enhance meeting note-taking by combining user input with AI assistance. It transcribes meetings in the background while users type their own notes, which are organized and enhanced by AI afterward.",
     website: "https://www.granola.ai/",
     fundingStage: "Series A"
+  },
+  {
+    name: "Fracta",
+    categories: ["Utilies", "SaaS"],
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+    tagline: "Predict breaks, target leaks and reduce Non Revenue Water in as little as 45 days",
+    description: "Fracta is a California-based startup that utilizes artificial intelligence and machine learning to predict pipe failures in water distribution systems, enhancing asset management for utilities.",
+    website: "https://www.fracta.ai/",
+    fundingStage: "unknown"
   }
 ];
