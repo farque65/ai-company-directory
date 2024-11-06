@@ -423,5 +423,14 @@ export const companies: Company[] = [
     description: "Fracta is a California-based startup that utilizes artificial intelligence and machine learning to predict pipe failures in water distribution systems, enhancing asset management for utilities.",
     website: "https://www.fracta.ai/",
     fundingStage: "unknown"
+  },
+  {
+    name: "Hebbia",
+    categories: ["Document Search", "SaaS"],
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+    tagline: "Add the power of generative AI to your firm",
+    description: "Hebbia is an AI-powered platform revolutionizing document search and analysis. Its Matrix AI technology enables processing of vast datasets across multiple document types, featuring an infinite context window.",
+    website: "https://www.hebbia.ai/",
+    fundingStage: "Series B"
   }
 ];
