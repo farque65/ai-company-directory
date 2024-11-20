@@ -432,5 +432,14 @@ export const companies: Company[] = [
     description: "Hebbia is an AI-powered platform revolutionizing document search and analysis. Its Matrix AI technology enables processing of vast datasets across multiple document types, featuring an infinite context window.",
     website: "https://www.hebbia.ai/",
     fundingStage: "Series B"
+  },
+  {
+    name: "Obico",
+    categories: ["3d Printing"],
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+    tagline: "AI Failure Detection Gives You 3D Printing Peace of Mind",
+    description: "Obico provides real-time monitoring of 3D prints using a camera and advanced machine learning algorithms to detect issues such as spaghetti monsters. The platform highlights potential failures in the print process and can automatically pause prints to prevent material waste.",
+    website: "https://www.obico.io/",
+    fundingStage: "unknown"
   }
 ];
