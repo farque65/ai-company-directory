@@ -89,7 +89,7 @@ export default function Home() {
                   <div className="flex-grow">
                     <h2 className="text-gray-900 text-lg title-font font-medium font-bold">{company.name}</h2>
                     <a className=" text-indigo-500 inline-flex items-center" href={company.website} target="_blank" rel="noopener noreferrer">Learn More
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>
                     </a>
@@ -108,6 +108,7 @@ export default function Home() {
           */}
         </div>
 
+        <h2 className="text-2xl font-bold text-foreground mb-4">All Companies</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredCompanies.map((company) => (
             <CompanyCard key={company.id} company={company} />
