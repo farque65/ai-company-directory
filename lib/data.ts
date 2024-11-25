@@ -327,7 +327,8 @@ export const companies: Company[] = [
   },
   {
     name: "Exsientia",
-    categories: ["AI Drug Discovery"],
+    website: "https://www.exscientia.com/",
+    categories: ["Drug Discovery"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800", 
     tagline: "Inventors of the worls best AI designed drugs to enter clinical trials",
     description: "Exscientia has expanded its AI platform to develop novel therapeutic antibodies through generative AI design and was the first to bring an AI-designed drug candidate to clinical trials in early 2020. The company has also entered into a partnership with the Gates Foundation to develop AI-designed drugs for neglected diseases.",
@@ -335,7 +336,8 @@ export const companies: Company[] = [
   },
   {
     name: "BenevolentAI",
-    categories: ["AI Drug Discovery"],
+    website: "https://www.benevolent.com/",
+    categories: ["Drug Discovery"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
     tagline: "AI enabled drug discovery",
     description: "BenevolentAI utilizes its AI-enabled platform, the Benevolent Platform™. The platform analyzes vast biomedical data, employing machine learning to create a multidimensional representation of human biology across various diseases.",
@@ -375,7 +377,7 @@ export const companies: Company[] = [
   },
   {
     name: "Beatoven.ai",
-    categories: ["AI Music Generation"],
+    categories: ["AI Music Generation","Music Composition"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
     tagline: "Find the tune that carries your story",
     description: "The platform offers text-to-music functionality, allowing users to generate custom tracks based on their ideas, with options for prompt-based customization and adjustments to tempo, instruments, and other musical elements.",
@@ -408,7 +410,7 @@ export const companies: Company[] = [
   },
   {
     name: "Granola",
-    categories: ["Saaas"],
+    categories: ["Saas"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
     tagline: "The AI notepad for people in back-to-back meetings",
     description: "Granola is an AI-powered notepad designed to enhance meeting note-taking by combining user input with AI assistance. It transcribes meetings in the background while users type their own notes, which are organized and enhanced by AI afterward.",
