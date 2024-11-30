@@ -6,7 +6,7 @@ import FilterModal from "@/components/FilterModal";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { companies } from "@/lib/data";
+import { companies, Company } from "@/lib/data";
 import { Search, SlidersHorizontal } from "lucide-react";
 import { useState } from "react";
 
@@ -114,9 +114,9 @@ export default function Home() {
 
         <h2 className="text-2xl font-bold text-foreground mb-4">All Companies</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredCompanies.map((company: { id: any; name: any; }) => (
-            <CompanyCard key={`${company.id}-${company.name}`} company={company} />
-          ))}
+          {filteredCompanies.map((company: Company) => {
+            return <CompanyCard key={`${company.id}-${company.name}`} company={company} />;
+          })}
         </div>
 
         {filteredCompanies.length === 0 && (

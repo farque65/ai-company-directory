@@ -94,6 +94,7 @@ export const companies: Company[] = [
     fundingStage: "Series A"
   },
   {
+    id: "7",
     name: "OpenAI",
     categories: ["Artificial Intelligence Research"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -102,6 +103,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "8",
     name: "DeepMind",
     categories: ["Artificial Intelligence Research"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -110,6 +112,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "9",
     name: "Anthropic",
     categories: ["AI Safety and Ethics"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -118,6 +121,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "10",
     name: "Nvidia",
     categories: ["Hardware and AI"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -126,6 +130,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "11",
     name: "IBM Watson",
     categories: ["Enterprise AI Solutions"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -134,6 +139,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "12",
     name: "Clarifai",
     categories: ["Computer Vision AI"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -142,6 +148,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "13",
     name: "DataRobot",
     categories: ["Automated Machine Learning"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -150,6 +157,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "14",
     name: "H2O.ai",
     categories: ["Open Source AI"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -158,6 +166,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "15",
     name: "SenseTime",
     categories: ["Computer Vision and Deep Learning"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -166,6 +175,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "16",
     name: "Palantir Technologies",
     categories: ["Big Data Analytics"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -174,6 +184,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "17",
     name: "C3.ai",
     categories: ["Enterprise AI Software"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -182,6 +193,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "18",
     name: "Databricks",
     categories: ["Big Data and AI"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -190,6 +202,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "19",
     name: "UiPath",
     categories: ["Robotic Process Automation"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -198,6 +211,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "20",
     name: "Graphcore",
     categories: ["AI Hardware"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -206,6 +220,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "21",
     name: "Scale AI",
     categories: ["AI Data Platform"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -214,6 +229,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "22",
     name: "Darktrace",
     categories: ["Cybersecurity AI"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -222,6 +238,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "23",
     name: "Anduril Industries",
     categories: ["Defense AI"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -230,6 +247,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "24",
     name: "Tempus",
     categories: ["Healthcare AI"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -238,6 +256,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "25",
     name: "Vicarious",
     categories: ["Robotics AI"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -246,6 +265,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "26",
     name: "Recursion Pharmaceuticals",
     categories: ["Drug Discovery AI"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -254,6 +274,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "27",
     name: "Wolf3d",
     categories: ["Gaming"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -262,6 +283,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "28",
     name: "Fliki",
     categories: ["AI Voice Generation"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -270,6 +292,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "29",
     name: "Meshy.ai",
     categories: ["3d Model Generation"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -278,6 +301,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "30",
     name: "Coda",
     categories: ["AI Voice Generation"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -286,6 +310,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "31",
     name: "Blender Foundation",
     categories: ["3d Model Generation"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -294,6 +319,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "32",
     name: "Hugging Face",
     categories: ["AI Voice Generation"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -302,6 +328,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "33",
     name: "Synthesia",
     categories: ["AI Voice Generation"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -310,6 +337,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "34",
     name: "Wysa",
     categories: ["Mental Health"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -318,6 +346,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "35",
     name: "Cursor.ai",
     categories: ["AI Code Editor"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -326,6 +355,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "36",
     name: "Exsientia",
     website: "https://www.exscientia.com/",
     categories: ["Drug Discovery"],
@@ -335,6 +365,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "37",
     name: "BenevolentAI",
     website: "https://www.benevolent.com/",
     categories: ["Drug Discovery"],
@@ -344,6 +375,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "38",
     name: "Fakespot",
     categories: ["Fake reviews detection"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -352,6 +384,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "39",
     name: "Vivint Smart Home AI",
     categories: ["Smart Home"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -360,6 +393,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "40",
     name: "Polybee",
     categories: ["Agriculture"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -368,6 +402,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "41",
     name: "Colossyan",
     categories: ["AI Video Generation"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -376,6 +411,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "42",
     name: "Beatoven.ai",
     categories: ["AI Music Generation","Music Composition"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -384,6 +420,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "43",
     name: "Dashtoon",
     categories: ["AI Comic Creation Platform"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -392,6 +429,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "44",
     name: "Coffee Robot",
     categories: ["Enterprise Robotics"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -400,6 +438,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "45",
     name: "SwingVision",
     categories: ["Sports", "Computer Vision"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -409,6 +448,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "46",
     name: "Granola",
     categories: ["Saas"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -418,6 +458,7 @@ export const companies: Company[] = [
     fundingStage: "Series A"
   },
   {
+    id: "47",
     name: "Fracta",
     categories: ["Utilies", "SaaS"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -427,6 +468,7 @@ export const companies: Company[] = [
     fundingStage: "unknown"
   },
   {
+    id: "48",
     name: "Hebbia",
     categories: ["Document Search", "SaaS"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
@@ -436,6 +478,7 @@ export const companies: Company[] = [
     fundingStage: "Series B"
   },
   {
+    id: "49",
     name: "Obico",
     categories: ["3d Printing"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
