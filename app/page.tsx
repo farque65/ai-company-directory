@@ -85,18 +85,18 @@ export default function Home() {
               These companies are the top picks from our team
             </p>
             <section>
-              <div class="container px-5 py-2 mx-auto">
-                <div class="flex flex-wrap -m-4 text-center">
+              <div className="container px-5 py-2 mx-auto">
+                <div className="flex flex-wrap -m-4 text-center">
                   {featuredCompanies.map((_company: any) => (
-                    <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                      <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                        <h2 class="title-font font-medium text-3xl text-gray-900">{_company.name}</h2>
+                    <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+                      <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <h2 className="title-font font-medium text-3xl text-gray-900">{_company.name}</h2>
                         <div>
                         {_company?.categories.map((_category: any)=> {
                           <Badge variant="secondary">{_category}</Badge>
                         })}
                         </div>
-                        <p class="leading-relaxed">
+                        <p className="leading-relaxed">
                           <a className=" text-indigo-500 inline-flex items-center" href={_company.website} target="_blank" rel="noopener noreferrer">Learn More
                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                               <path d="M5 12h14M12 5l7 7-7 7"></path>
