@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { Company } from "@/lib/data";
+import Image from "next/image";
 
 interface CompanyCardProps {
   company: Company;
@@ -19,8 +19,8 @@ export function CompanyCard({ company, onClick, featured = false }: CompanyCardP
     >
       <div className="aspect-video relative overflow-hidden">
         <Image
-          src={company.image}
-          alt={company.name}
+          src={company.image || "/default-image.png"}
+          alt={company.name || "Company name"}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
         />
@@ -29,7 +29,7 @@ export function CompanyCard({ company, onClick, featured = false }: CompanyCardP
         <div className="flex items-center justify-between mb-2">
           <h3 className="text-lg font-semibold text-gray-900">{company.name}</h3>
           <span className="px-2 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-800">
-            {company.category}
+            {company.categories?.join(", ")}
           </span>
         </div>
         <p className="text-sm text-gray-600 line-clamp-2">{company.description}</p>

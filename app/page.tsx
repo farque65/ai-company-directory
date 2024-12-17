@@ -1,7 +1,6 @@
 "use client";
 
 import CompanyCard from "@/components/CompanyCard";
-import FeaturedCompanies from "@/components/FeaturedCompanies";
 import FilterModal from "@/components/FilterModal";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
