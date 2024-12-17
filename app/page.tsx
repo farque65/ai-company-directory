@@ -1,9 +1,11 @@
 "use client";
 
 import CompanyCard from "@/components/CompanyCard";
-import { Badge } from "@/components/ui/badge";
+import FeaturedCompanies from "@/components/FeaturedCompanies";
 import FilterModal from "@/components/FilterModal";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { companies, Company } from "@/lib/data";
@@ -15,6 +17,7 @@ export default function Home() {
   const [showFilters, setShowFilters] = useState(false);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedFunding, setSelectedFunding] = useState<string[]>([]);
+  const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
 
   const filteredCompanies = companies.filter((company) => {
 
@@ -48,15 +51,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-background to-secondary">
+      <Header />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl mb-4">
-            AI Companies Directory
-          </h1>
-          <p className="text-lg text-muted-foreground">
-            Discover and explore innovative companies in artificial intelligence
-          </p>
-        </div>
 
         <div className="flex gap-4 mb-8">
           <div className="relative flex-1">
