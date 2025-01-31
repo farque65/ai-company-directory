@@ -11,7 +11,7 @@ interface CompanyCardProps {
 
 export default function CompanyCard({ company }: CompanyCardProps) {
   return (
-    <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+    <Card className="overflow-hidden hover:shadow-lg transition-shadow bg-gray-900 border-b border-gray-800">
       <CardHeader className="p-0">
         <div className="relative h-48 w-full">
           {company.image && (
@@ -27,7 +27,7 @@ export default function CompanyCard({ company }: CompanyCardProps) {
       <CardContent className="p-6">
         <div className="flex items-start justify-between mb-4">
           <div>
-            <h3 className="text-xl font-semibold mb-1">{company.name}</h3>
+            <h3 className="text-xl font-semibold mb-1 text-white">{company.name}</h3>
             <p className="text-sm text-muted-foreground mb-2">
               Founded: {company.founded}
             </p>
@@ -39,21 +39,12 @@ export default function CompanyCard({ company }: CompanyCardProps) {
           {company.description}
         </p>
 
-        {/*
-        <div className="flex flex-wrap gap-2 mb-4">
-          {company.categories.map((category) => (
-            <Badge key={category} variant="outline">
-              {category}
-            </Badge>
-          ))}
-        </div>
-          */}
         <Button
           variant="outline"
           className="w-full flex items-center gap-2"
           asChild
         >
-          <a href={company.website} target="_blank" rel="noopener noreferrer">
+          <a href={company.website} target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-lg flex items-center gap-2">
             Visit Website
             <ExternalLink className="h-4 w-4" />
           </a>

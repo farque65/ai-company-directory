@@ -3,13 +3,15 @@
 import CompanyCard from "@/components/CompanyCard";
 import FilterModal from "@/components/FilterModal";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import { Header } from "@/components/Header";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { companies, Company } from "@/lib/data";
 import { Search, SlidersHorizontal } from "lucide-react";
 import { useState } from "react";
+import { StockTable } from "@/components/StockTable";
+import { FeaturedCompanies } from "@/components/FeaturedCompanies";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -49,47 +51,13 @@ export default function Home() {
   });
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-background to-secondary">
+    <main className="min-h-screen bg-black">
       <Header />
+      <StockTable/>
+      <FeaturedCompanies companies={featuredCompanies}/>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-
-
-        <div className="grid grid-rows-1 mb-4">
-          <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Featured Companies</h2>
-            <p className="text-muted-foreground mb-2">
-              These companies are the top picks from our team
-            </p>
-            <section>
-              <div className="container px-5 py-2 mx-auto">
-                <div className="flex flex-wrap -m-4 text-center">
-                  {featuredCompanies.map((_company: any) => (
-                    <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                      <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                        <h2 className="title-font font-medium text-3xl text-gray-900">{_company.name}</h2>
-                        <div>
-                        {_company?.categories.map((_category: any)=> {
-                          <Badge variant="secondary">{_category}</Badge>
-                        })}
-                        </div>
-                        <p className="leading-relaxed">
-                          <a className=" text-indigo-500 inline-flex items-center" href={_company.website} target="_blank" rel="noopener noreferrer">Learn More
-                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                              <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg>
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-
-        <h2 className="text-2xl font-bold text-foreground mb-4">All Companies</h2>
+        <h2 className="text-2xl font-bold text-foreground">All Companies</h2>
 
         <div className="flex gap-4 mb-8">
           <div className="relative flex-1">
@@ -104,9 +72,9 @@ export default function Home() {
           <Button
             variant="outline"
             onClick={() => setShowFilters(true)}
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 bg-gray-500 text-white"
           >
-            <SlidersHorizontal className="h-4 w-4" />
+            <SlidersHorizontal className="h-4 w-4 bg-gray-500 text-white" />
             Filters
           </Button>
         </div>
