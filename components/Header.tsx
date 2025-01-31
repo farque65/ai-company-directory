@@ -22,9 +22,9 @@ export function Header() {
           <span className="text-white text-xl font-bold">AI Market Watch</span>
         </div>
         <div className="hidden md:flex items-center space-x-6">
-          <NavLink icon={<Home size={18} />} text="Home" />
+          <NavLink icon={<Home size={18} />} text="Home" link="" />
           <NavLink icon={<TwitterIcon size={18} />} text="Twitter" link="https://twitter.com/fahimintech" />
-          <NavLink icon={<Info size={18} />} text="About" />
+          <NavLink icon={<Info size={18} />} text="About" link=""/>
         </div>
         <button
           className="md:hidden text-gray-300 hover:text-[#00ff00] transition-colors"
@@ -36,9 +36,9 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 right-0 bg-black border-b border-gray-800 py-4 px-4 z-50">
           <div className="flex flex-col space-y-4">
-            <NavLink icon={<Home size={18} />} text="Home" />
-            <NavLink icon={<TwitterIcon size={18} />} text="Twitter" />
-            <NavLink icon={<Info size={18} />} text="About" />
+            <NavLink icon={<Home size={18} />} text="Home" link="" />
+            <NavLink icon={<TwitterIcon size={18} />} text="Twitter" link="" />
+            <NavLink icon={<Info size={18} />} text="About" link="" />
           </div>
         </div>
       )}
