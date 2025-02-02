@@ -47,7 +47,7 @@ export default function Home() {
       return false;
     }
     
-    return company.categories?.includes('Drug Discovery') || company.categories?.includes('Healthcare');
+    return company.categories?.includes("Natural Language Processing");
   });
 
   return (

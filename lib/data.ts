@@ -39,7 +39,7 @@ export const companies: Company[] = [
     description: "Leading artificial intelligence research laboratory developing safe and beneficial AI.",
     founded: 2015,
     website: "https://openai.com",
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1676299081847-824916de030a?auto=format&fit=crop&q=80&w=800",
     categories: ["Natural Language Processing", "Machine Learning"],
     fundingStage: "Series C+"
   },
@@ -95,11 +95,11 @@ export const companies: Company[] = [
   },
   {
     id: "7",
-    name: "OpenAI",
-    categories: ["Artificial Intelligence Research"],
+    name: "Deepseek",
+    categories: ["Artificial Intelligence Research","Natural Language Processing","Machine Learning"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
-    tagline: "Discovering and enacting the path to safe artificial general intelligence",
-    description: "OpenAI is an AI research and deployment company, aiming to ensure that artificial general intelligence (AGI) benefits all of humanity. They are known for developing advanced language models like GPT-3 and GPT-4, as well as other AI systems like DALL-E and ChatGPT.",
+    tagline: "Into the unknown",
+    description: "DeepSeek is an AI company focused on building advanced, scalable, and customizable AI models. Their tech is designed for industries like healthcare, finance, and education, offering tailored solutions for real-world problems. ",
     fundingStage: "unknown"
   },
   {
